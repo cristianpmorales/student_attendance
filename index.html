@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>Student Attendance</title>
+	<!-- <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic|Old+Standard+TT:700' rel='stylesheet' type='text/css'> -->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/normalize.css">
+
+
+</head>
+<body>
+	<section class="containerBox">
+		<section class="containerList">
+			<h1> Enter a Students Name</h1>
+			<input id="studentIputBox" type="text" placeholder="Enter the Students Name"  >   <!-- pattern= "^[A-Za-z]+" -->
+			<span class="message" aria-live="polite"></span>
+			<section class="buttonContainer">
+				<button>Save Student Name</button>
+				<button>Get list</button>
+			</section>
+			<h2>Student Attendance<h2>
+			<ul></ul>
+		</section>
+	</section>
+	<script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script src="js/studentjava.js"></script>
+</body>
+</html>

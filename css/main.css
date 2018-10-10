@@ -1,0 +1,47 @@
+.message {
+width  : 100%;
+padding: 0;
+
+font-size: 80%;
+border-radius: 0 0 5px 5px;
+
+-moz-box-sizing: border-box;
+ box-sizing: border-box;
+}
+.containerList{
+	padding-left: 2%;
+	padding-right: 2%;
+	border: 2px dashed black;
+}
+ul{
+	list-style-type: none;
+}
+.containerBox {
+	padding-left: 30%;
+	padding-right: 30%;
+}
+
+#studentIputBox{
+	width:50%;
+}
+.buttonContainer{
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (max-width:599px) {
+  li {
+    display: inline;
+  }
+	.containerBox {
+		padding: 0;
+		margin: 0;
+	}
+	.containerList{
+		padding: 0;
+		border: 1px dashed black;
+	}
+	.message {
+	width  : 75%;
+	}
+}
