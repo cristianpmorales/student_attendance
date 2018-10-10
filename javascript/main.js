@@ -1,4 +1,4 @@
-//inout for student Name
+//Section for student Name
 //Save the student name in an array
 //spit out studen name from a list
 

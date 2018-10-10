@@ -1,3 +1,7 @@
+@import "normalize.css";
+@import "reset.css";
+@import "style.css";
+
 .message {
 width  : 100%;
 padding: 0;
